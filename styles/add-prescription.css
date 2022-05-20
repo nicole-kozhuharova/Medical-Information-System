@@ -1,0 +1,40 @@
+.main-container {
+    position: relative;
+}
+
+.form-container1 {
+    width: 50%!important;
+    margin: 0 auto;
+}
+
+.form-container {
+    width: 100%;
+}
+
+
+.submit-btn {
+    margin-bottom: 25px;
+}
+
+.add_input_fields_button {
+    position: absolute;
+    left: 50%;
+    top: 147px!important;
+}
+
+.add_input_fields_button {
+    position: absolute;
+    left: 76%;
+    top: 100px;
+}
+
+.add_input_fields_button, .submit-btn {
+    background-color: #4f2179;
+    border: none;
+}
+
+.btn:hover {
+    color: #4f2179;
+    background-color: transparent;
+    border: 1px solid #4f2179;
+}

@@ -1,0 +1,35 @@
+.main-container {
+    padding: 15vh 0!important;
+}
+
+.main-container .main-content .table {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.main-container .main-content .table .btn-holder .btn {
+    color: #fff;
+    background-color: #6C2681;
+    border-color: #6C2681;
+}
+
+.main-container .main-content .table .btn-holder .btn:hover {
+    background-color: transparent;
+    color: #6C2681;
+}
+.main-container .main-content .page-title {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+tr.upcoming {
+    background-color: #d0f4de;
+}
+
+tr.past {
+    background-color: #ffcfd2;
+}
+

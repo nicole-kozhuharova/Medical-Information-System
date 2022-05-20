@@ -1,0 +1,27 @@
+.main-container .btns-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-container .main-content {
+    margin: 0 30px;
+}
+
+.main-container .btns-container .btn-holder {
+    width: 100%;
+}
+
+.main-container .btns-container .btn-holder .btn-primary {
+    width: 100%;
+    font-size: 30px;
+    padding: 50px;
+    margin-bottom: 40px;
+    background-color: #6C2681;
+    color: #FFF;
+    border-color: #6C2681;
+}
+
+.main-container .btns-container .btn-holder .btn-primary:hover {
+    background-color: transparent;
+    color: #6C2681;
+}

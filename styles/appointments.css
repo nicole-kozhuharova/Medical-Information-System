@@ -1,0 +1,72 @@
+.main-container {
+  padding: 15vh 0!important;
+}
+
+.dropbtn {
+  background-color: #6c2680;
+  color: white;
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 50px;
+  left: 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #a63090;}
+
+.main-container .main-content .table {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.main-container .main-content .table .btn-holder .btn {
+  color: #fff;
+  background-color: #6C2681;
+  border-color: #6C2681;
+}
+
+.main-container .main-content .table .btn-holder .btn:hover {
+  background-color: transparent;
+  color: #6C2681;
+}
+.main-container .main-content .page-title {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main-container .main-content .doctor-name {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 15px;
+  margin-top: 45px;
+}
+
+

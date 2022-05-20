@@ -1,0 +1,45 @@
+.header {
+    padding: .75rem 0; 
+    background: linear-gradient(to right,#411e75 0%,#ad3192 100%);
+}
+
+.navigation {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 95%; 
+    margin: 0 auto;
+}
+
+.header .navigation .profile .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3.5px solid #ac3192;
+}
+
+.header .navigation .profile .names {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.header .navigation .logout-btn {
+    color: #fff; 
+    background-color: transparent; 
+    border-color: #fff;
+}
+
+.header .navigation .logout-btn:hover{
+    background-color: #fff;
+    color: #ad3192;
+}
+
+.main-container {
+    padding: 20vh 0;
+    background-color: #FBFBFB;
+}
+
+body {
+    background-color: #FBFBFB;
+}

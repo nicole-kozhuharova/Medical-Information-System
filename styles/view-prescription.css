@@ -1,0 +1,14 @@
+.button-container {
+    width: 80%; 
+    margin: 0 auto; 
+    margin-top: 50px
+}
+
+#download-button {
+    background-color: #6C2681; 
+    border: none; 
+}
+
+.main-container .main-content .prescr-table {
+    margin-top: 12px!important;
+}

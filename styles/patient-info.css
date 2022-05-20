@@ -1,0 +1,51 @@
+.main-container .main-content .personal-info {
+    width: 46%;
+    padding-left: 45px;
+}
+
+.main-container .main-content .personal-info .info-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.main-container .main-content .personal-info .info-container {
+    margin-bottom: 20px;
+}
+
+.main-container .main-content .personal-info a {
+    color: #ad3192;
+}
+
+.main-container .main-content .personal-info a:hover {
+    color: #6C2681
+}
+
+.main-container .btns-container {
+    width: 50%;
+    float: right;
+}
+.main-container .main-content {
+    display: inline-flex;
+    width: 100%;
+}
+
+.main-container .main-content .btns-container .btn-holder {
+    width: 43vw;
+}
+
+.main-container .main-content .btns-container .btn-holder .btn-primary {
+    width: 100%;
+    font-size: 2vw;
+    padding: 18px;
+    margin-bottom: 25px;
+    background-color: #6C2681;
+    color: #FFF;
+    border-color: #6C2681;
+}
+
+.main-container .main-content .btns-container .btn-holder .active:hover {
+    background-color: transparent;
+    color: #6C2681;
+}
+
