@@ -1,5 +1,7 @@
 <?php
-$servername = "localhost:4306";
+
+//If port 3306 is not available, set to a new port and change the value
+$servername = "localhost:3306"; //$servername = "localhost:your_port"; 
 $db_user = "root";
 $db_password = "";
 

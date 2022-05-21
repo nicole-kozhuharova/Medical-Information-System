@@ -1,7 +1,9 @@
 <?php
     session_start();
+    
     include "connect-db.php";
-    if (isset($_SESSION['username']) && isset($_SESSION['id'])) 
+
+    if (isset($_SESSION['username']) && isset($_SESSION['id']))
     {   ?>
 
 <!DOCTYPE html>
