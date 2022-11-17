@@ -65,10 +65,10 @@
 				  	$i =1;
 				  	while ($rows = mysqli_fetch_assoc($res)) {
                         $class_value = ''; 
-                        if(date('d/m/Y H:i', strtotime($rows['date']))>=date('d/m/Y H:i')) { 
-                          $class_value = "upcoming";
+                        if(date('d/m/Y H:i', strtotime($rows['date'])) >= date('d/m/Y H:i')) { 
+                          $class_value = "past";
                         } else {
-                            $class_value = "past";
+                            $class_value = "upcoming";
                         }
                     ?>
 				    <tr class="<?php echo $class_value; ?>">
